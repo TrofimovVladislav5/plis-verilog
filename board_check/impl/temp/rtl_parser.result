@@ -1,0 +1,72 @@
+[
+ {
+  "InstFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/top.v",
+    "InstLine" : 60,
+    "InstName" : "SR1",
+    "ModuleFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/shift_reg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "shift_reg"
+   },
+   {
+    "InstFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/top.v",
+    "InstLine" : 70,
+    "InstName" : "SR2",
+    "ModuleFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/shift_reg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "shift_reg"
+   },
+   {
+    "InstFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/top.v",
+    "InstLine" : 80,
+    "InstName" : "SR3",
+    "ModuleFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/shift_reg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "shift_reg"
+   },
+   {
+    "InstFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/top.v",
+    "InstLine" : 91,
+    "InstName" : "DV1",
+    "ModuleFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/digit_view.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "digit_view",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/digit_view.v",
+      "InstLine" : 14,
+      "InstName" : "SR",
+      "ModuleFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/shift_reg.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "shift_reg"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/top.v",
+    "InstLine" : 99,
+    "InstName" : "DV2",
+    "ModuleFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/digit_view.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "digit_view",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/digit_view.v",
+      "InstLine" : 14,
+      "InstName" : "SR",
+      "ModuleFile" : "C:/Users/vladm/OneDrive/Desktop/Projects/verilog/plis-verilog/board_check/src/shift_reg.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "shift_reg"
+     }
+    ]
+   }
+  ]
+ }
+]

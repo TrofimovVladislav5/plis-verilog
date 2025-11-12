@@ -5,7 +5,7 @@ module cyclic_buffer(
     output wire [6:0] segments
 );
 
-    reg[3:0] buffer;
+    reg [3:0] buffer;
     reg btn_previous;
 
     wire btn_pressed = btn & (~btn_previous);
@@ -17,12 +17,12 @@ module cyclic_buffer(
         end else begin
             btn_previous <= btn;
             if (btn_pressed)
-                buffer <= buffer + 1;
+                buffer <= (buffer == 4'b1111) ? 0 : buffer + 1;            
         end
     end
+
     ssegment_display show(
         .value(buffer),
         .segments(segments)
     );
 endmodule
-

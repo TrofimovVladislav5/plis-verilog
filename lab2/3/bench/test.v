@@ -21,10 +21,24 @@ module test;
         btn = 0;
         #20;    
         reset = 0;
-
         #10 btn = 1; #10 btn = 0;
-        #20 btn = 1; #10 btn = 0;
-        #20 btn = 1; #10 btn = 0;
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
+        #10 btn = 1; #10 btn = 0; 
 
         #100;
     end
